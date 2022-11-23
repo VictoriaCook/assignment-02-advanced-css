@@ -168,10 +168,12 @@ figcaption{
     position: relative;
     bottom: 20px;
     left: 10px;
-    width: 200px;
+    width: 70%;
     height: 20px;
     background-color: #ead1dc;
     border: 1px solid transparent;
+    font-size: 110%;
+    font-weight: bold;
 }
 
 /* Contact section styling */

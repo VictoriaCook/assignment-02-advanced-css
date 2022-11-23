@@ -177,9 +177,15 @@ figcaption{
 
 /* Contact section styling */
 
+
+#linktocontact h2 {
+    color: black;
+}
+
 #contact a {
     color: grey;
 }
+
 
 
 /* Media queries */

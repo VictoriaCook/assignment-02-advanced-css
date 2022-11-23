@@ -1,19 +1,19 @@
-
+/* #ead1dc */
 body {
-background-color: lightgrey;
+background-color: white;
 margin: 0;
 }
 
 /*Header styles*/
 header {
-    background-color: grey;
+    background-color: white;
     padding: 0;
     margin: 0;
     width: 100%;
 }
 
 header h1 {
-    background-color: turquoise;
+    background-color: #ead1dc;
     width: 20%;
     display: inline-block;
 }
@@ -37,13 +37,13 @@ nav ul {
 li {
     display: inline-block;
     margin-left: 25px;
-    color: turquoise;
+    color: #ead1dc;
     border-bottom: solid;
 }
 
 li:hover{
     text-decoration: underline;
-    color:purple;
+    color:#ead1dc;
     cursor:pointer;
 }
 
@@ -76,7 +76,7 @@ nav a {
     bottom: 8px;
     right: 16px;
     font-size: 18px;
-    background-color: turquoise;
+    background-color: #ead1dc;
   }
 
 /* Main section styling */
@@ -92,7 +92,7 @@ nav a {
 
 .content-section {
     margin-left: 10px;
-    border-left: 3px solid purple;
+    border-left: 3px solid turquoise;
    
 }
 
@@ -129,7 +129,7 @@ section {
 
 .descr {
     margin-left: 10px;
-    border-left: 3px solid purple;
+    border-left: 3px solid turquoise;
     padding: 0px 10px 0px 150px;
 }
 
@@ -170,7 +170,7 @@ figcaption{
     left: 10px;
     width: 200px;
     height: 20px;
-    background-color: turquoise;
+    background-color: #ead1dc;
     border: 1px solid transparent;
 }
 

@@ -46,7 +46,7 @@ Build a portfolio template website using HTML and CSS
 
 The following image is a mock up of the website's appearance:
 
-![The mock up page features a grey header and navigation, a feature image of a beach, an about me section, a work section with work samples displayed in a grid layout, and a contact me section.](/Develop/assets/images/mock-up.png)
+![The mock up page features a grey header and navigation, a feature image of a beach, an about me section, a work section with work samples displayed in a grid layout, and a contact me section.](assets/images/mockup.png)
 
 ---
 

@@ -40,6 +40,16 @@ a {
     text-decoration: none;
 }
 
+/* Figure styles */
+img {
+    background-size: contain;
+    max-width: 100%;
+    max-height: 20%;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 /* Figcaption styles */
 figcaption {
     float: right;

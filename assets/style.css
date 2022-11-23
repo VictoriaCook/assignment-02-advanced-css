@@ -81,6 +81,21 @@ nav a {
 
 /* Main section styling */
 
+.content-block {
+    display: flex;
+}
+
+.content-header {
+    width: 200px;
+}
+
+.content-section {
+    margin-left: 10px;
+    border-left: 3px solid purple;
+}
+
+
+
 section {
     padding: 60px;
     display: flex;
@@ -115,9 +130,9 @@ section {
 
 /* Work section styling */
 
-.work{
+/* .work{
     padding: 0px 0px 0px 70px;
-}
+} */
 
 /* Grid styling */
 
@@ -132,8 +147,6 @@ section {
     grid-template-columns: repeat(var(--num-cols), 1fr);
     grid-auto-rows: var(--row-height);
     gap:var(--gap);
-    margin-left: 10px;
-    border-left: 3px solid purple;
 }
 
 .card-column img {
@@ -159,7 +172,7 @@ figcaption{
 
 /* Contact section styles */
 
-.contact {
+/* .contact {
     margin: auto;
     float: left;
     width: 100%;
@@ -177,7 +190,7 @@ figcaption{
 
 .contact ul {
     border-left: 3px solid purple;
-}
+} */
 
 .contact ul li {
     color: grey;

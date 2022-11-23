@@ -83,29 +83,25 @@ section {
     margin: auto;
 }
 
-h2 {
-    font-size: 30px;
-    text-align: end;
-}
-
 .content{
-    display:flex;
+    display: flex;
     flex-direction: column;
     margin-left: 100px;
     width: 90%;
-    text-align:justify;
+    text-align: justify;
     
 /* The About Me section styling */
 }
-.descr{
+.descr {
     margin-left: 10px;
     border-left: 3px solid purple;
     padding: 0px 10px 0px 150px;
 }
 
-h2{
+h2 {
     font-size: 30px;
-    text-align: center;
+    text-align: left;
+    float: left;
 }
 
 /* Work section styling */

@@ -52,7 +52,7 @@ The following image is a mock up of the website's appearance:
 
 ## Deployed URL
 
-The URL for the deployed page is here: (INSERT)
+The URL for the deployed page is here: https://victoriacook.github.io/assignment-02-advanced-css/
 
 ---
 

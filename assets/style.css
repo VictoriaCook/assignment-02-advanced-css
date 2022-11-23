@@ -41,6 +41,12 @@ li {
     border-bottom: solid;
 }
 
+li:hover{
+    text-decoration: underline;
+    color:purple;
+    cursor:pointer;
+}
+
 /*Navigation link styles*/
 nav a {
     color: turquoise;
@@ -48,10 +54,10 @@ nav a {
 }
 
 /* Figure styles */
-img {
+.container img {
     background-size: contain;
     max-width: 100%;
-    max-height: 20%;
+    max-height: 25%;
     display: block;
     margin-left: 0;
     margin-right: 0;
@@ -69,9 +75,109 @@ img {
     background-color: turquoise;
   }
 
+/* Main section styling */
 
-/*Aside styles*/
-aside {
+section {
+    padding: 60px;
+    display: flex;
+    margin: auto;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: end;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 90%;
+    text-align:justify;
+    
+/* The About Me section styling */
+}
+.descr{
+    margin-left: 10px;
+    border-left: 3px solid purple;
+    padding: 0px 10px 0px 150px;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Work section styling */
+
+.work{
+    padding: 0px 0px 0px 70px;
+}
+
+/* Grid styling */
+
+.grid{
+    --gap: 40px;
+    --num-cols:2;
+    --row-height:300px;
+    box-sizing: border-box;
+    padding-left: 150px;
+    padding-right: 60px;
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap:var(--gap);
+    margin-left: 10px;
+    border-left: 3px solid purple;
+}
+
+.card-column img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+outline: 2px solid black;
+}
+
+#big-image {
+    grid-column: span 2;
+}
+
+figcaption{
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    width: 200px;
+    height: 20px;
+    background-color: turquoise;
+    border: 1px solid transparent;
+}
+
+/* Contact section styles */
+
+.contact {
+    margin: auto;
+    justify-content: center;
+}
+
+.contact h2 {
+    text-align: left;
+}
+
+.contact a {
+    color: grey;
+    text-decoration: none;
+}
+
+.contact ul {
+    border-left: 3px solid purple;
+}
+
+.contact ul li {
+    color: grey;
+}
+
+
+/* aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -84,39 +190,59 @@ aside {
 aside h2 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
-/* Footer styles */
-footer {
-    margin: auto;
-    justify-content: center;
-}
 
-footer a {
-    color: grey;
-    text-decoration: none;
-}
-
-footer ul li {
-    color: grey;
-}
-
-/* First card styles */
-
-.first-card {
+/* .first-card {
     position: relative;
     outline: 2px solid;
-}
+} */
 
 /* Grid styles */
 
+/*
+
 .grid {
     display: grid;
+    height: 300px;
     width: 100%;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    box-sizing: border-box;
   }
 
+#big-image {
+    grid-column: span 2;
+}
+
+.grid{
+    /* --gap: 10px; */
+    /*
+    --num-cols:2;
+    --row-height: 600px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap:var(--gap);
+    margin-left: 10px;
+    border-left: 3px solid purple;
+}
+
 .card-column {
+    outline: 2px solid;
+}
+
+.card-column img {
+width:100%;
+height: 100%;
+object-fit: cover;
+}
+
+
+/* .card-column {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -133,9 +259,10 @@ footer ul li {
 
   .card img {
     width: 100%;
-  }
+  } */
 
   /* Text block styles */
+  /*
 .text-block {
     left: 20px;
     background-color: turquoise;
@@ -144,4 +271,18 @@ footer ul li {
     padding-right: 5px;
   }
 
+/* Footer styles */
+/* 
+footer {
+    margin: auto;
+    justify-content: center;
+}
 
+footer a {
+    color: grey;
+    text-decoration: none;
+}
+
+footer ul li {
+    color: grey;
+} */

@@ -181,41 +181,30 @@ figcaption{
 
 /* Media queries */
 
-/* media query for mobile */
-/* 1. shrink grid width
-2. shrink about me / work / contact
-3. widen VC's portfolio text box
-4. center nav */
+/* Media query for tablets */
 
-@media screen and (max-width: 600px) {
-    .content {
-        width: 40%;
+@media screen and (max-width: 900px) {
+    .content-header {
+    max-width: 10%;
     }
-    .card-column {
-        width: 30%;
+    .content-section {
+        max-width: 90%;
     }
+  }
 
-    #big-image {
-        grid-column: span 1.5;
-    }
+/* Media query for mobile */
 
-    .about {
-        width: 50%
-    }
-
-    .work {
-        width: 50%
-    }
-
-    .contact {
-        width: 50%;
+@media screen and (max-width: 400px) {
+    .content-header {
+        max-width: 10%;
+        }
+    .content-section {
+            max-width: 90%;
+        }
+    nav {
+        float: none;
+        margin-right: 0;
+        text-align: center;
     }
   }
   
-/* media query for tablets */
-/* 1. shrink grid width
-2. shrink about me / work / contact */
-
-@media screen and (min-width: XXpx) {
-
-  }

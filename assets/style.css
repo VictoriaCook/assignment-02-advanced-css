@@ -99,6 +99,7 @@ section {
 .about {
     float: left;
     width: 100%;
+    display: flex;
 }
 
 .descr {
@@ -109,6 +110,7 @@ section {
 
 .about h2 {
     font-size: 30px;
+    text-align: end;
 }
 
 /* Work section styling */
@@ -161,6 +163,7 @@ figcaption{
     margin: auto;
     float: left;
     width: 100%;
+    display: flex;
 }
 
 .contact h2 {

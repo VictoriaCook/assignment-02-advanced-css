@@ -70,14 +70,6 @@ img {
     background-color: turquoise;
   }
 
-/* Figcaption styles
-figcaption {
-    float: right;
-    background-color: turquoise;
-    width: 20%;
-} */
-
-
 /*Aside styles*/
 aside {
     margin-right: 20px;
@@ -97,6 +89,7 @@ aside h2 {
 /* Footer styles */
 footer {
     margin: auto;
+    justify-content: center;
 }
 
 footer a {
@@ -109,28 +102,31 @@ footer ul li {
 }
 
 /* Flexbox styles */
+
 .row justify-center{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
+    width: 80%;
+    float: right;
   }
 
-  .justify-center {
+.justify-center {
     justify-content: center;
   }
 
-.card code-card {
-    width: 30%;
+.card-column {
+    width: 50%;
 }
 
 /* Text block styles */
-.card code-card {
+.card {
     position: relative;
+    outline: 2px solid;
   }
 
 .text-block {
-    position: absolute;
     left: 20px;
     background-color: turquoise;
     color: black;

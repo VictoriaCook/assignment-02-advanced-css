@@ -1,0 +1,219 @@
+body {
+background-color: white;
+margin: 0;
+}
+
+/*Header styles*/
+header {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+header h1 {
+    background-color: #ead1dc;
+    width: 20%;
+    display: inline-block;
+}
+
+/*Navigation styles*/
+nav {
+    padding-top: 1px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    
+}
+
+/*Navigation list of links style*/
+nav ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+/*Navigation list item styles*/
+li {
+    display: inline-block;
+    margin-left: 25px;
+    color: #ead1dc;
+    border-bottom: solid;
+}
+
+li:hover{
+    text-decoration: underline;
+    color:#ead1dc;
+    cursor:pointer;
+}
+
+/*Navigation link styles*/
+nav a {
+    color: turquoise;
+    text-decoration: none;
+}
+
+/* Figure styles */
+.banner-image img {
+    background-size: contain;
+    max-width: 100%;
+    max-height: 15%;
+    display: block;
+}
+
+.banner-image {
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+  }
+  
+.bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+    background-color: #ead1dc;
+  }
+
+/* Main section styling */
+
+.content-block {
+    display: flex;
+    padding: 15px 0px;
+}
+
+.content-header {
+    min-width: 15%;
+}
+
+.content-section {
+    margin-left: 10px;
+    border-left: 3px solid turquoise;
+   
+}
+
+.content-section p {
+    padding-left: 150px;
+    padding-right: 60px;
+}
+
+.content-section ul {
+    padding-left: 150px;
+    padding-right: 60px;
+}
+
+section {
+    padding: 60px;
+    display: flex;
+    margin: auto;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 90%;
+    text-align: justify;   
+}
+/* About Me section styling */
+
+.about {
+    float: left;
+    width: 100%;
+    display: flex;
+}
+
+.descr {
+    margin-left: 10px;
+    border-left: 3px solid turquoise;
+    padding: 0px 10px 0px 150px;
+}
+
+.about h2 {
+    font-size: 30px;
+    text-align: end;
+}
+
+/* Grid styling */
+
+.grid{
+    --gap: 40px;
+    --num-cols:2;
+    --row-height:300px;
+    box-sizing: border-box;
+    padding-left: 150px;
+    padding-right: 60px;
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap:var(--gap);
+}
+
+.card-column img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+outline: 2px solid black;
+}
+
+#big-image {
+    grid-column: span 2;
+}
+
+figcaption{
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    width: 70%;
+    height: 20px;
+    background-color: #ead1dc;
+    border: 1px solid transparent;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+/* Contact section styling */
+
+
+#linktocontact h2 {
+    color: black;
+}
+
+#contact a {
+    color: grey;
+}
+
+
+
+/* Media queries */
+
+/* Media query for tablets */
+
+@media screen and (max-width: 900px) {
+    .content-header {
+    max-width: 10%;
+    }
+    .content-section {
+        max-width: 90%;
+    }
+  }
+
+/* Media query for mobile */
+
+@media screen and (max-width: 400px) {
+    .content-header {
+        max-width: 10%;
+        }
+    .content-section {
+            max-width: 90%;
+        }
+    nav {
+        float: none;
+        margin-right: 0;
+        text-align: center;
+    }
+  }
+  

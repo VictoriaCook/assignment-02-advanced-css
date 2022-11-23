@@ -119,7 +119,7 @@ section {
     width: 90%;
     text-align: justify;   
 }
-/* The About Me section styling */
+/* About Me section styling */
 
 .about {
     float: left;
@@ -173,6 +173,8 @@ figcaption{
     background-color: turquoise;
     border: 1px solid transparent;
 }
+
+/* Contact section styling */
 
 .contact ul li {
     color: grey;

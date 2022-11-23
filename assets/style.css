@@ -1,10 +1,16 @@
 
+body {
+background-color: lightgrey;
+margin: 0;
+padding 0;
+}
 
 /*Header styles*/
 header {
     background-color: grey;
     padding: 0;
     margin: 0;
+    width: 100%;
 }
 
 header h1 {
@@ -80,6 +86,7 @@ aside {
     float: left;
     width: 20%;
     height: 100%;
+    border-right: solid;
 }
 
 aside h2 {
@@ -130,7 +137,7 @@ footer ul li {
     justify-content: flex-start;
     min-height: 100%;
     padding: 2rem;
-    color: var(--heliotrope);
+    color: pink;
   
     /* outline is like border, but on the outside of the box instead of inside */
     outline: 2px dashed var(--gin);

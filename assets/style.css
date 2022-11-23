@@ -187,11 +187,39 @@ figcaption{
 /* Media queries */
 
 /* media query for mobile */
-@media screen and (max-width: px) {
-    
+/* 1. shrink grid width
+2. shrink about me / work / contact
+3. widen VC's portfolio text box
+4. center nav */
+
+@media screen and (max-width: 600px) {
+    .content {
+        width: 40%;
+    }
+    .card-column {
+        width: 30%;
+    }
+
+    #big-image {
+        grid-column: span 1.5;
+    }
+
+    .about {
+        width: 50%
+    }
+
+    .work {
+        width: 50%
+    }
+
+    .contact {
+        width: 50%;
+    }
   }
   
 /* media query for tablets */
+/* 1. shrink grid width
+2. shrink about me / work / contact */
 
 @media screen and (min-width: XXpx) {
 

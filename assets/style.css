@@ -184,6 +184,23 @@ figcaption{
 }
 
 
+/* Media queries */
+
+/* media query for mobile */
+@media screen and (max-width: px) {
+    
+  }
+  
+/* media query for tablets */
+
+@media screen and (min-width: XXpx) {
+
+  }
+
+
+
+
+
 /* aside {
     margin-right: 20px;
     padding: 20px;

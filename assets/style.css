@@ -88,20 +88,23 @@ section {
     flex-direction: column;
     margin-left: 100px;
     width: 90%;
-    text-align: justify;
-    
-/* The About Me section styling */
+    text-align: justify;   
 }
+/* The About Me section styling */
+
+.about {
+    float: left;
+    width: 100%;
+}
+
 .descr {
     margin-left: 10px;
     border-left: 3px solid purple;
     padding: 0px 10px 0px 150px;
 }
 
-h2 {
+.about h2 {
     font-size: 30px;
-    text-align: left;
-    float: left;
 }
 
 /* Work section styling */
@@ -152,7 +155,8 @@ figcaption{
 
 .contact {
     margin: auto;
-    justify-content: center;
+    float: left;
+    width: 100%;
 }
 
 .contact h2 {

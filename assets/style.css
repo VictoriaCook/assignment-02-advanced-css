@@ -176,7 +176,7 @@ figcaption{
 
 /* Contact section styling */
 
-.contact ul li {
+#contact a {
     color: grey;
 }
 

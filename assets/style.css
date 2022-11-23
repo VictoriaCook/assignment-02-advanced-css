@@ -3,6 +3,8 @@
 /*Header styles*/
 header {
     background-color: grey;
+    padding: 0;
+    margin: 0;
 }
 
 header h1 {
@@ -35,7 +37,7 @@ li {
 }
 
 /*Navigation link styles*/
-a {
+nav a {
     color: turquoise;
     text-decoration: none;
 }
@@ -73,7 +75,12 @@ aside h2 {
     text-align: center;
 }
 
-footer li {
+footer a {
+    color: grey;
+    text-decoration: none;
+}
+
+footer ul li {
     color: grey;
 }
 

@@ -40,6 +40,13 @@ a {
     text-decoration: none;
 }
 
+/* Figcaption styles */
+figcaption {
+    float: right;
+    background-color: turquoise;
+    width: 20%;
+}
+
 
 /*Aside styles*/
 aside {
@@ -135,7 +142,7 @@ footer li {
     );
     display: flex;
     align-items: center;
-  }
+  /* } */
   
   /* on <pre> click, select all contents so the code is highlighted */
   .code-card pre:active {

@@ -52,12 +52,24 @@ img {
     margin-right: 0;
 }
 
-/* Figcaption styles */
+.container {
+    position: relative;
+  }
+  
+.bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+    background-color: turquoise;
+  }
+
+/* Figcaption styles
 figcaption {
     float: right;
     background-color: turquoise;
     width: 20%;
-}
+} */
 
 
 /*Aside styles*/
@@ -73,6 +85,11 @@ aside {
 aside h2 {
     margin-bottom: 10px;
     text-align: center;
+}
+
+/* Footer styles */
+footer {
+    margin: auto;
 }
 
 footer a {
